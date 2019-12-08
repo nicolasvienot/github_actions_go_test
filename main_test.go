@@ -6,7 +6,7 @@ import (
 
 func TestCheckAge(t *testing.T) {
 	personOverAge := Person{
-		Age: 19,
+		Age: 15,
 	}
 	personUnderAge := Person{
 		Age: 15,
